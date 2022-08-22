@@ -18,101 +18,102 @@
     <div class="borda"> </div>
     <div id="tabuleiro">
         <div class="linha1">
-            <div class="quadrado1"> W </div>
-            <div class="quadrado1"> O </div>
-            <div class="quadrado1"> R </div>
-            <div class="quadrado1 verde"> L </div>
-            <div class="quadrado1"> D </div>
+            <div class="l1 q1"> W </div>
+            <div class="l1 q2"> O </div>
+            <div class="l1 q3"> R </div>
+            <div class="l1 q4 verde"> L </div>
+            <div class="l1 q5"> D </div>
         </div>
 
         <div class="linha2">
-            <div class="quadrado1 amarelo"> A </div>
-            <div class="quadrado2"> P </div>
-            <div class="quadrado2"> P </div>
-            <div class="quadrado1 verde"> L </div>
-            <div class="quadrado2"> E </div>
+            <div class="l2 q1 amarelo"> A </div>
+            <div class="l2 q2"> P </div>
+            <div class="l2 q3"> P </div>
+            <div class="l2 q4 verde"> L </div>
+            <div class="l2 q5"> E </div>
         </div>
     
         <div class="linha3">
-            <div class="quadrado3"> F </div>
-            <div class="quadrado3"> A </div>
-            <div class="quadrado3"> U </div>
-            <div class="quadrado3"> L </div>
-            <div class="quadrado3"> T </div>
+            <div class="l3 q1">  </div>
+            <div class="l3 q2">  </div>
+            <div class="l3 q3">  </div>
+            <div class="l3 q4">  </div>
+            <div class="l3 q5">  </div>
     
         </div>
     
         <div class="linha4">
-            <div class="quadrado4">  </div>
-            <div class="quadrado4">  </div>
-            <div class="quadrado4">  </div>
-            <div class="quadrado4">  </div>
-            <div class="quadrado4">  </div>
+            <div class="l4 q1">  </div>
+            <div class="l4 q2">  </div>
+            <div class="l4 q3">  </div>
+            <div class="l4 q4">  </div>
+            <div class="l4 q5">  </div>
         </div>
     
         <div class="linha5">
-            <div class="quadrado5">  </div>
-            <div class="quadrado5">  </div>
-            <div class="quadrado5">  </div>
-            <div class="quadrado5">  </div>
-            <div class="quadrado5">  </div>
+            <div class="l5 q1">  </div>
+            <div class="l5 q2">  </div>
+            <div class="l5 q3">  </div>
+            <div class="l5 q4">  </div>
+            <div class="l5 q5">  </div>
     
         <div class="linha6">
-            <div class="quadrado6"> </div>
-            <div class="quadrado6"> </div>
-            <div class="quadrado6"> </div>
-            <div class="quadrado6"> </div>
-            <div class="quadrado6"> </div>
+            <div class="l6 q1"> </div>
+            <div class="l6 q2"> </div>
+            <div class="l6 q3"> </div>
+            <div class="l6 q4"> </div>
+            <div class="l6 q5"> </div>
         </div>
     </div>
     
     <div class="teclado">
         <div class="linhatec1"> 
 
-            <div class="tecla1"> Q </div>
-            <div class="tecla1 tecla-cinza"> W </div>
-            <div class="tecla1 tecla-cinza"> E </div>
-            <div class="tecla1 tecla-cinza"> R </div>
-            <div class="tecla1"> T </div>
-            <div class="tecla1"> Y </div>
-            <div class="tecla1"> U </div>
-            <div class="tecla1"> I </div>
-            <div class="tecla1 tecla-cinza"> O </div>
-            <div class="tecla1 tecla-cinza"> P </div>
+            <button class="t1" id="letraQ" onclick="clickTeclado(this.value);" value="Q">Q</button>
+            <button class="t1" id="letraW" onclick="clickTeclado(this.value);" value="W">W</button>
+            <button class="t1" id="letraE" onclick="clickTeclado(this.value);" value="E">E</button>
+            <button class="t1" id="letraR" onclick="clickTeclado(this.value);" value="R">R</button>
+            <button class="t1" id="letraT" onclick="clickTeclado(this.value);" value="T">T</button>
+            <button class="t1" id="letraY" onclick="clickTeclado(this.value);" value="Y">Y</button>
+            <button class="t1" id="letraU" onclick="clickTeclado(this.value);" value="U">U</button>
+            <button class="t1" id="letraI" onclick="clickTeclado(this.value);" value="I">I</button>
+            <button class="t1 tecla-cinza" id="letraO" onclick="clickTeclado(this.value);" value="O">O</button>
+            <button class="t1 tecla-cinza" id="letraP" onclick="clickTeclado(this.value);" value="P">P</button>
 
         </div>
 
         <div class="linhatec2"> 
 
-            <div class="tecla1 tecla-amarela"> A </div>
-            <div class="tecla1"> S </div>
-            <div class="tecla1 tecla-cinza"> D </div>
-            <div class="tecla1"> F </div>
-            <div class="tecla1"> G </div>
-            <div class="tecla1"> H </div>
-            <div class="tecla1"> K </div>
-            <div class="tecla1 tecla-verde"> L </div>
+            <button class="t2 tecla-amarela" id="letraA" onclick="clickTeclado(this.value);" value="A">A</button>
+            <button class="t2" id="letraS" onclick="clickTeclado(this.value);" value="S">S</button>
+            <button class="t2 tecla-cinza" id="letraD" onclick="clickTeclado(this.value);" value="D">D</button>
+            <button class="t2" id="letraF" onclick="clickTeclado(this.value);" value="F">F</button>
+            <button class="t2" id="letraG" onclick="clickTeclado(this.value);" value="G">G</button>
+            <button class="t2" id="letraH" onclick="clickTeclado(this.value);" value="H">H</button>
+            <button class="t2" id="letraJ" onclick="clickTeclado(this.value);" value="J">J</button>
+            <button class="t2" id="letraK" onclick="clickTeclado(this.value);" value="K">K</button>
+            <button class="t2 tecla-verde" id="letraL" onclick="clickTeclado(this.value);" value="L">L</button>
 
         </div>
 
         <div class="linhatec3"> 
 
-            <div class="tecla1 tecla-enter"> ENTER </div>
-            <div class="tecla1"> Z </div>
-            <div class="tecla1"> X </div>
-            <div class="tecla1"> C </div>
-            <div class="tecla1"> V </div>
-            <div class="tecla1"> B </div>
-            <div class="tecla1"> N </div>
-            <div class="tecla1"> M </div>
-            <div class=" tecla1 tecla-delete"> 
+            <div class="t3 tecla-enter"> ENTER </div>
+            <button class="t3" id="letraZ" onclick="clickTeclado(this.value);" value="Z">Z</button>
+            <button class="t3" id="letraX" onclick="clickTeclado(this.value);" value="X">X</button>
+            <button class="t3" id="letraC" onclick="clickTeclado(this.value);" value="C">C</button>
+            <button class="t3" id="letraV" onclick="clickTeclado(this.value);" value="V">V</button>
+            <button class="t3" id="letraB" onclick="clickTeclado(this.value);" value="B">B</button>
+            <button class="t3" id="letraN" onclick="clickTeclado(this.value);" value="N">N</button>
+            <button class="t3" id="letraM" onclick="clickTeclado(this.value);" value="M">M</button>
+            <div class="t3 tecla-delete" onclick="Delete()"> 
                 <img src="./img/backspacecorte.png" alt=""> 
             </div>
 
         </div>
 
     </div>
-
+<script src="script.js"></script>
 </body>
 </html>
 </html>

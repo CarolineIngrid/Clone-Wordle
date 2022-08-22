@@ -1,4 +1,4 @@
-.quadrado1{
+.l1{
     padding: 20px;
     margin-top: 5px;
     width: 22px;
@@ -18,7 +18,7 @@
     background-color: #c9b458;
 }
 
-.quadrado2{
+.l2{
     padding: 20px;
     margin-top: 5px;
     width: 22px;
@@ -29,7 +29,7 @@
     font-weight: bold;
 } 
 
-.quadrado3{
+.l3{
     border: solid 1px #000000;
     padding: 20px;
     margin-top: 5px;
@@ -39,7 +39,7 @@
     font-weight: bold;
 } 
 
-.quadrado4{
+.l4{
     border: solid 1px #d5d8db;
     padding: 20px;
     margin-top: 5px;
@@ -48,7 +48,7 @@
     display: inline-block;
 } 
 
-.quadrado5{
+.l5{
     border: solid 1px #d5d8db;
     padding: 20px;
     width: 20px;
@@ -56,7 +56,7 @@
     display: inline-block;
 } 
 
-.quadrado6{
+.l6{
     border: solid 1px #d5d8db;
     padding: 20px;
     margin-top: 5px;
@@ -68,21 +68,21 @@
 /* ------------------ TECLADO ----------------- */
 
 .teclado{
-    margin-top: 120px;
+    margin-top: 60px;
     text-align: center;
 }
 
-.tecla1{
+.t1, .t2, .t3{
     display: inline-block;
-    /* padding-top: 20px; */
-    line-height: 57px;
-    width: 43px;
-    height: 58px;
+    line-height: 40px;
+    width: 28px;
+    height: 50px;
     border-radius: 8%;
     font-size: 15px;
     text-align: center;
     background-color: #d3d6da;
     box-sizing: content-box;
+    border: none;
 }
 
 .tecla-cinza{
@@ -134,7 +134,7 @@ img{
 
 #tabuleiro{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 80px;
     font-size: 28px;
 }
 
