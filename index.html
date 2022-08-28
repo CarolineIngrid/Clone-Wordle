@@ -17,23 +17,23 @@
 
     <div class="borda"> </div>
     <div id="tabuleiro">
-        <div class="linha1">
-            <div class="l1 q1"> W </div>
-            <div class="l1 q2"> O </div>
-            <div class="l1 q3"> R </div>
-            <div class="l1 q4 verde"> L </div>
-            <div class="l1 q5"> D </div>
+        <div class="linha1" id="linha1">
+            <div class="l1 q1" id="d1"> </div>
+            <div class="l1 q2" id="d2"> </div>
+            <div class="l1 q3" id="d3"> </div>
+            <div class="l1 q4 " id="d4"> </div>
+            <div class="l1 q5" id="d5"> </div>
         </div>
 
-        <div class="linha2">
-            <div class="l2 q1 amarelo"> A </div>
-            <div class="l2 q2"> P </div>
-            <div class="l2 q3"> P </div>
-            <div class="l2 q4 verde"> L </div>
-            <div class="l2 q5"> E </div>
+        <div class="linha2" id="linha2">
+            <div class="l2 q1" > </div>
+            <div class="l2 q2"> </div>
+            <div class="l2 q3"> </div>
+            <div class="l2 q4"> </div>
+            <div class="l2 q5"> </div>
         </div>
     
-        <div class="linha3">
+        <div class="linha3" id="linha3">
             <div class="l3 q1">  </div>
             <div class="l3 q2">  </div>
             <div class="l3 q3">  </div>
@@ -42,7 +42,7 @@
     
         </div>
     
-        <div class="linha4">
+        <div class="linha4" id="linha4">
             <div class="l4 q1">  </div>
             <div class="l4 q2">  </div>
             <div class="l4 q3">  </div>
@@ -50,14 +50,14 @@
             <div class="l4 q5">  </div>
         </div>
     
-        <div class="linha5">
+        <div class="linha5" id="linha5">
             <div class="l5 q1">  </div>
             <div class="l5 q2">  </div>
             <div class="l5 q3">  </div>
             <div class="l5 q4">  </div>
             <div class="l5 q5">  </div>
     
-        <div class="linha6">
+        <div class="linha6" id="linha6">
             <div class="l6 q1"> </div>
             <div class="l6 q2"> </div>
             <div class="l6 q3"> </div>
@@ -98,7 +98,7 @@
 
         <div class="linhatec3"> 
 
-            <div class="t3 tecla-enter"> ENTER </div>
+            <button class="t3 tecla-enter" onclick="Confirmacao()"> ENTER </button>
             <button class="t3" id="letraZ" onclick="clickTeclado(this.value);" value="Z">Z</button>
             <button class="t3" id="letraX" onclick="clickTeclado(this.value);" value="X">X</button>
             <button class="t3" id="letraC" onclick="clickTeclado(this.value);" value="C">C</button>
